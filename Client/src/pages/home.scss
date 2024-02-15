@@ -1,0 +1,132 @@
+.home-page {
+    color: #fff;
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 65px;
+    flex-direction: row;
+
+    #img {
+        width: 60%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-right: 100px;
+
+        img {
+            width: 500px;
+            height: auto;
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .content1 {
+        margin-left: 15%;
+    }
+  
+
+    .h1 {
+        font-size: 48px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 10px;
+        display: flex;
+        color: #5f9bce!important;
+    }
+
+    .para1 {
+        font-size: 16px;
+        color: #212529;
+        width: 90%;
+ text-wrap: pretty;
+
+
+    }
+
+    .btns {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+    }
+
+    %btn1 {
+        border: 2px solid #9C55F7;
+        background-color: #9C55F7;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: smaller;
+        border-radius: 14px;
+
+        &:hover {
+            transform: scale(1.05); 
+          }
+    }
+
+    .btn1 {
+        @extend %btn1;
+        &:hover {
+            background-color: #F4675C !important;
+                color: white !important;
+                border: 2px solid #F4675C !important;
+        }
+    }
+
+    .btn2 {
+        @extend %btn1;
+        &:hover {
+            background-color: #F4675C !important;
+                color: white !important;
+                border: 2px solid #F4675C !important;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        #img {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+
+        .content1 {
+            margin-left: 0;
+        }
+
+        .btns {
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .h1 {
+            font-size: 2.5rem;
+        }
+
+        .para1 {
+            font-size: 1rem;
+        }
+
+        .btns {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+    
+}

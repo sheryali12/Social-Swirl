@@ -1,0 +1,46 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 100px;
+  //border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.testimonial {
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  border: 0.2px solid gray;
+  box-shadow: 1px 3px 4px 1px gray;
+  border-radius: 15px;
+
+  .divPara{
+    padding: 10px;
+    //border: 1px solid red;
+    font-family: Comfortaa;
+    line-break:auto;
+    line-height: 25px;
+
+  }
+ 
+}
+
+.testimonial p {
+  color: black; /* Text color */
+}
+
+.text h1 {
+  margin: 3px;
+}
+
+.text h1 span {
+  color: #333; /* Assuming a dark color for the subtitle span */
+}
