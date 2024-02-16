@@ -1,0 +1,40 @@
+.testimonials {
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials img {
+  background-color: #003c6b;
+  border: 1px solid #5f9bce;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.texts {
+  text-align: center;
+  color: #212529;
+  font-family: Comfortaa;
+}
+
+#btn1 {
+  padding: 9px 15px;
+  font-weight: 400;
+  font-family: Chivo;
+  background-color: #003c6b;
+  color: #fff;
+  border: 2px solid #003c6b;
+  border-radius: 7px;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid #003c6b;
+    background-color: white;
+    color: #003c6b;
+  }
+
+  // @media screen and (max-width: 1024px) {
+  //   padding: 6px 10px; // Decrease padding for smaller screens
+  // }
+}

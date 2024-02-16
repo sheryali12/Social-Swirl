@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: auto; 
+  width: 100%;
+  margin-top: 20px;
+}
+
+#enrolBtn {
+  background-color:black;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  border:2px solid black;
+  font-size: 18px;
+ 
+  &:hover {
+    border:2px solid black;
+    color:black;
+    background-color:white;
+    font-size: 18px;
+  }
+}
+
+.h2 {
+  font-size: 38px;
+  font-weight: 400;
+  color: #212529;
+  font-family:'Comfortaa','sans-serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left-div {
+  flex: 1;
+  padding: 20px;
+  width: 100%; /* Adjusted width for responsiveness */
+  height: auto;
+  margin-left: 9%;
+
+  .p1 {
+      font-family: 'Chivo','sans-serif';
+      font-weight: 100px;
+  }
+}
+
+.right-div {
+  flex: 1;
+ // padding-right: 100px;
+ margin: 20px;
+
+  img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-right: 20% ;
+  }
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 1024px) {
+  .container {
+      flex-direction: column;
+  }
+}

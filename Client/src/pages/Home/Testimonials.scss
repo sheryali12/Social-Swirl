@@ -1,0 +1,55 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 100px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+ // border: 2px solid red;
+ // margin: 3px;
+}
+
+.testimonial {
+  background-color: white;
+  //border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  
+  //height: auto;
+  border: 0.2px solid gray;
+  box-shadow: 1px 3px 4px 1px gray;
+  border-radius: 15px;
+
+  .divPara{
+    padding: 10px;
+    //border: 1px solid red;
+    font-family: Comfortaa;
+    //line-break:auto;
+    line-height: 25px;
+    width: 100%;
+   //height: auto;
+
+  }
+ 
+}
+
+.testimonial p {
+  color: black; /* Text color */
+}
+
+.text h1 {
+  margin: 3px;
+}
+
+.text h1 span {
+  color: #333; /* Assuming a dark color for the subtitle span */
+}
+@media (max-width: 1124px) {
+  .mainDiv{
+    width: 100%;
+  }
+}
