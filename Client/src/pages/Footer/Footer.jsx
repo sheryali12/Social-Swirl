@@ -11,10 +11,11 @@ function Footer() {
 
 <div className="head1">
 
+<div className="headingss">
 <h1>Start a Project with us Today</h1>
 <h3>Call us now to schedule as online appointment and get your project successfully <br /> completed</h3>
 </div>
-
+</div>
 
   <button className="head2">Get Started</button>
 

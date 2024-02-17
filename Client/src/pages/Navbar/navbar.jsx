@@ -68,6 +68,8 @@ const Navbar = () => {
         {/* Circle Image with Slider */}
         <div className="circle-image" onClick={toggleSlider}>
           <img src={adminImg} alt="Circle Image" />
+
+          
           {isSliderOpen && (
             <div className="slider">
               <List>

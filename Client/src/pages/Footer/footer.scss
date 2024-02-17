@@ -61,10 +61,16 @@ margin-top: 30px;
 @media (max-width: 600px) {
   .Footer1 {
     flex-direction: column;
-    align-items:flex-start;
+   // align-items:flex-start;
     height: auto;
     width: auto;
     margin-bottom: 10px;
+  }
+  .headingss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
   .head1 {
