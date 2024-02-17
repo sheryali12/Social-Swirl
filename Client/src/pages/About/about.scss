@@ -1,0 +1,105 @@
+.containerAbout {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     width: 100%;
+     height: 80vh;
+  //  border: 2px solid yellow;
+
+    .paraaa{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+  
+    
+      .para-divleft {
+      max-width: 100%;
+        height: auto;
+        color: #212529;
+
+      .aboutus{
+        font-size: 42px;
+        font-weight: 500;
+        color: #212529;
+        font-family:'Comfortaa','sans-serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #212529;
+    }
+    
+        .p1About{
+            padding-left: 20%;
+            margin-right: 15px;
+          font-family: 'Chivo','sans-serif';
+          font-weight: 100px;
+          color:#212529;
+          font-size: 18px;
+          line-height:22px;
+      }
+    }
+}   
+
+      .mee{
+        
+     //   border: 2px solid black;
+        width: 80%;
+       display: flex;
+       justify-content: flex-start;
+       bottom: 0;
+       align-items: center;
+    
+      .img-divright {
+        //border: 2px solid black;
+        max-width: 100%;
+      
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+  
+      }
+    }
+}
+
+@media (max-width: 1100px){
+    .containerAbout {
+        flex-direction: column !important;
+        margin-top: 100px;
+        height: auto;
+        width: 100%;
+
+        .paraaa{
+            display: flex;
+            justify-content: center;
+            // justify-content: flex-start;
+            width: 100%;
+            .para-divleft {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                .aboutus{
+                    width: 100%;
+                    
+                }  .p1About{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                  
+                }
+
+            }
+
+        }
+
+        .mee{
+            justify-content: center;
+            width: 100%;
+            .img-divright {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+       
+    }
+}

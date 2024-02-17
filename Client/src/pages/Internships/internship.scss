@@ -67,10 +67,19 @@
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1124px) {
+    .internshipContainer {
     .intern {
         background-size: contain;
-        height: auto;
-     
+        .btn {
+            button {
+                width: auto;
+                height: auto;
+                position: relative;
+                margin-top: 400px;
+              
+            }
+        }
     }
+}
 }

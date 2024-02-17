@@ -29,13 +29,14 @@ function Internship() {
 
     </div>
 
-    <br />
+     <br />
 
 <h1 style={{display:'flex', justifyContent:'center', width:'auto', textAlign:'center', color:'#212529', fontFamily:'Comfortaa', fontSize:'48px'}}>Internship Oppertunities</h1>
 <Intern1/>
 
 
 <VideoSection/>
+
 <ComingSoon/>
 
 

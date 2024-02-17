@@ -1,8 +1,13 @@
 import React from 'react'
+import Home1 from '../Home/Home1'
 
 function Business() {
   return (
-    <div>Business Outsourcing </div>
+    <div>
+
+<Home1/>
+
+    </div>
   )
 }
 
