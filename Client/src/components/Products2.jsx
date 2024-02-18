@@ -3,7 +3,7 @@ const products = [
       id: 1,
       title: 'Neerpeer /',
       subTitle:'backend End Development',
-      description: "Social Swirl's social media marketing team helped us establish a strong presence on various platforms. Their strategic approach and engaging content have attracted a larger audience and increased our brand awareness. They managed our social media accounts efficiently, interacted with our followers, and ran successful advertising campaigns. Their efforts have positively impacted our social media engagement and conversions.",
+      description: " Social Swirl's social media marketing team helped us establish a strong presence on various platforms. Their strategic approach and engaging content have attracted a larger audience and increased our brand awareness. They managed our social media accounts efficiently, interacted with our followers, and ran successful advertising campaigns. Their efforts have positively impacted our social media engagement and conversions.",
       
     },
     {

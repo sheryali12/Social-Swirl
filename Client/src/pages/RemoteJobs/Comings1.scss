@@ -1,0 +1,46 @@
+.mainComingSoon{
+  //border: 2px solid black;
+  width: 100%;
+  height: 90vh;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+
+    .mainComing {
+        width: 80%;
+        height: 500px;
+        justify-content: center;
+      
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+      
+        .imgDiv {
+          width: 100%;
+          height: 100%;
+      
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+}
+
+
+
+@media (max-width: 1008px) {
+  .mainComingSoon{
+      width: 100%;
+
+    }
+  
+      .mainComing {
+        width: 100%;
+        height: auto;
+      }
+    
+
+}

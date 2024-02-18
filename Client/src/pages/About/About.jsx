@@ -38,10 +38,12 @@ const About = () => {
       
     </div>
 
-<div style={{marginTop:'220px'}}></div>
+<div style={{padding:'40px'}}></div>
+
 
 <Home2/>
-
+<br />
+<br />
     </div>
   );
 }

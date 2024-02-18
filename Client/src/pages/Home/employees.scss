@@ -1,6 +1,7 @@
 .testimonials {
   justify-content: center;
   align-items: center;
+  padding: 60px;
 }
 
 .testimonials img {
@@ -19,7 +20,7 @@
 }
 
 #btn1 {
-  padding: 9px 15px;
+  padding: 8px 20px;
   font-weight: 400;
   font-family: Chivo;
   background-color: #003c6b;
@@ -34,7 +35,21 @@
     color: #003c6b;
   }
 
-  // @media screen and (max-width: 1024px) {
-  //   padding: 6px 10px; // Decrease padding for smaller screens
-  // }
+}
+
+
+@media (max-width: 600px) {
+  .testimonials {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1124px) {
+  .testimonials {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+  }
 }

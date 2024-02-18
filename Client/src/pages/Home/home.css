@@ -129,21 +129,29 @@
     
     .containerH{
         flex-direction: column;
+        width: 100%;
     }
     .btnsH {
         flex-direction: column;
         align-items: center; 
+        width: 100%;
     }
 
     .btnH {
         margin-bottom: 0px; 
+        width: 100%;
     }
 
     .content1{
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
     .img-containerH {
-        width: auto;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
     }

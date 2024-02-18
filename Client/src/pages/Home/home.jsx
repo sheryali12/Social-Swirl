@@ -52,7 +52,7 @@ function Home() {
 
 
 
-
+<br />
  <div>  
 
    <h3 style={{ textAlign:'center', fontSize:'3rem', fontFamily:'Comfortaa', fontWeight:'900px', color:'#212529'}}>Current Employees</h3>

@@ -1,46 +1,45 @@
-import product1 from '../assets/image1.jpg'
-import product2 from '../assets/image2.jpg'
-import product3 from '../assets/image3.jpg'
-import product4 from '../assets/image4.jpg'
-import product5 from '../assets/image5.jpg'
-import product6 from '../assets/image6.jpg'
+import product1 from '../assets/logo.jpg'
+import product2 from '../assets/admin.jpg'
+
 
 const products = [
-    {
-      id: 1,
-      title: 'Waleed',
-      description: 'React Developer',
-      image: product1
-    },
+  {
+    id: 1,
+    title: 'Danial Khan',
+    description: 'CEO Social Swirl',
+    image: 'https://socialswirl.org/assets/CEO-21696882.jpeg'
+  },
     {
       id: 2,
+      title: 'Waleed',
+      description: 'React Developer',
+      image: 'https://socialswirl.org/assets/WaleedsProfile-b636718d.jpeg'
+    },
+    {
+      id: 3,
       title: 'Arbaz',
       description: 'MERN Stack Developer',
       image: product2
     },
-    {
-        id: 3,
-        title: 'GulSher',
-        description: 'MERN Stack Developer',
-        image: product3
-      },
+  
       {
         id: 4,
-        title: 'Ali',
-        description: 'Backend Developer',
-        image: product4
+        title: 'GulSher',
+        description: 'MERN Stack Developer',
+        image: product1
+       
       },
       {
         id: 5,
         title: 'Ahmad',
         description: 'WordPress Developer',
-        image: product5
+        image: product1
       },
       {
         id: 6,
         title: 'Sami',
         description: 'Seo Expert',
-        image: product6
+        image: product1
       },
     
   ];

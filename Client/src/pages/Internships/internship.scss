@@ -71,12 +71,14 @@
     .internshipContainer {
     .intern {
         background-size: contain;
+        height: 300px;
+        margin-bottom: 100px;
         .btn {
             button {
                 width: auto;
                 height: auto;
                 position: relative;
-                margin-top: 400px;
+                margin-top: 300px;
               
             }
         }
