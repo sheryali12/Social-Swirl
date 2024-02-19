@@ -9,7 +9,7 @@
    
 
 
-    .headingMain{
+    .headingMainSec{
 height: auto;
 color: white;
 font-family: Comfortaa;
@@ -55,19 +55,50 @@ margin-bottom: 90px;
 
 @media screen and (max-width: 900px) {
     .SectionMain{
-      .headingMain{
+      width:  100% !important;
+      margin: 0px;
+      padding: 0px;
+      height: auto;
+      margin-top: 30px;
+      padding-bottom: 30px;
+      padding-top: 0;
+      display: flex;
+      justify-content: center;
+
+      p{
+        margin-bottom: 0px;
+        padding: 0;
+      }
+
+      .headingMainSec{
+        width:  100% ;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+       // margin-bottom: 10px;
+      //  padding: 0px;
+
       }
                 .leftRightDiv {
+                  width:  100% ;
+                  height: auto;
                         flex-direction: column;
                         align-items: center;
+                        margin: 0px;
+                      //  padding: 40px;
+                        margin-bottom: 0px;
+                        display: flex;
+                        justify-content: center;
+                        gap: 0px;
                                 }
 
-               .leftDiv, .rightDiv {
-                        width: 100%;
+               .leftDiv , .rightDiv{
+                        width: 95% !important;
+                        height: auto;
+                        margin: 0;
+                        padding: 0;
                          }
                }
 }

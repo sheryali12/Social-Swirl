@@ -8,7 +8,7 @@ function VideoSection() {
 
     <div className='SectionMain'>
 
-        <p className='headingMain'>
+        <p className='headingMainSec'>
              Video Tutorials
          </p>
 

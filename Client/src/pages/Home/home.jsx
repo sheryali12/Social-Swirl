@@ -8,6 +8,7 @@ import Employees from './Employees';
 
 function Home() {
     return (
+        <div className="HomeMain">
         <div className="home">
         <div className="containerH">
             <div className="home-page">
@@ -73,6 +74,7 @@ function Home() {
 
 
 {/*  */}
+</div>
 </div>
     );
 }

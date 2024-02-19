@@ -5,7 +5,7 @@ import Home2 from '../Home/Home2';
 const About = () => {
   return (
   
-<div className="first">
+<div className="AboutMain">
 
 <div className="containerAbout">
 
@@ -40,10 +40,10 @@ const About = () => {
 
 <div style={{padding:'40px'}}></div>
 
+<Home2 />
 
-<Home2/>
-<br />
-<br />
+<br /><br />
+
     </div>
   );
 }

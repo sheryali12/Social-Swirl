@@ -6,7 +6,7 @@ import VideoSection from './VideoSection'
 
 function Internship() {
   return (
-<div>
+<div className='internshipMain'>
     <div className='internshipContainer'>
 
 
@@ -31,7 +31,8 @@ function Internship() {
 
      <br />
 
-<h1 style={{display:'flex', justifyContent:'center', width:'auto', textAlign:'center', color:'#212529', fontFamily:'Comfortaa', fontSize:'48px'}}>Internship Oppertunities</h1>
+
+<h1 className='h1Internship' style={{display:'flex', justifyContent:'center', width:'auto',height:'auto', textAlign:'center', color:'#212529', fontFamily:'Comfortaa', fontSize:'48px'}}>Internship Oppertunities</h1>
 <Intern1/>
 
 

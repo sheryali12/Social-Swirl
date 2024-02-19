@@ -8,7 +8,7 @@
 .intern {
     width: 80%;
   //  border: 2px solid black;
-    height: 50%;
+   // height: 50%;
     margin-bottom: 0;
     margin-top: 0;
 
@@ -16,7 +16,7 @@
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
-    height: 90vh; 
+    height: 85vh; 
     max-width: auto;
 
     .btn {
@@ -67,10 +67,19 @@
     
 }
 
+
 @media screen and (max-width: 1124px) {
+  
+    .internshipMain{
+        .h1Internship{
+            font-size: 28px !important;
+        }
     .internshipContainer {
+      
+       
     .intern {
         background-size: contain;
+        width: 100%;
         height: 300px;
         margin-bottom: 100px;
         .btn {
@@ -83,5 +92,6 @@
             }
         }
     }
+}
 }
 }

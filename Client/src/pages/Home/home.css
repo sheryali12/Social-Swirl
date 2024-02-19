@@ -126,6 +126,8 @@
 
 
 @media (max-width: 1024px) {
+    .HomeMain{
+        padding: 20px;
     
     .containerH{
         flex-direction: column;
@@ -155,4 +157,5 @@
         display: flex;
         flex-direction: column;
     }
+}
 }

@@ -1,23 +1,14 @@
-.me{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .intern1Container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
+   
     
   }
   
-  .intern {
+  .interns {
     width: calc(33.33% - 20px); 
-   // margin-bottom: 20px; 
     box-sizing: border-box;
     background-color: #ffffff; 
     padding: 60px;
@@ -32,7 +23,7 @@
           }
   }
   
-  .intern img {
+  .interns img {
     width: 100%;
     height: auto;
     display: block;
@@ -44,8 +35,8 @@
   }
   
   .btn button {
-    background-color: #003c6b; /* Button background color */
-    color: #ffffff; /* Button text color */
+    background-color: #003c6b; 
+    color: #ffffff; 
     padding: 0 16px;
     min-width: 64px;
     height: 36px;
@@ -60,4 +51,15 @@
         background-color: white;
         color: #003c6b;
     }
+  }
+
+  @media(max-width: 1024px){
+          .intern1Container{
+             margin-bottom: 50px;
+            
+               
+            .interns {
+              padding: 0px;
+            }
+         }
   }

@@ -4,10 +4,13 @@ import WorkType from './WorkType'
 import Coming1 from './Coming1'
 import Employees from '../Home/Employees'
 import Testimonials from '../Home/Testimonials'
+import './RemoteJobs.scss'
 
 function RemoteJobs() {
   return (
-    <div>
+   
+    <div className='remoteJobs'>
+       <div className="RemoteJobsMain">
 
 <WorkType/>
 
@@ -27,7 +30,7 @@ function RemoteJobs() {
 
 <Testimonials/>
 
-
+</div>
     </div>
   )
 }

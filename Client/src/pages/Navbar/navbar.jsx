@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import './navbar.scss';
-import logoImg from '../../assets//logo.jpg';
+import logoImg from '../../assets/logo.jpg';
 import adminImg from '../../assets/admin.jpg';
 import { FaAngleDown, FaBars } from 'react-icons/fa';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';

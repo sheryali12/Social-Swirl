@@ -35,11 +35,19 @@
   }
 
   @media (max-width: 650px) {
+  .mainDivTestimonial{
+    width: 100%;
+ 
     .testimonial {
       width: 100%;
+   
+      .divPara{
+        width: 100%;
+      
+      }
     }
   }
-
+}
   @media (min-width: 650px) and (max-width: 1124px) {
     .testimonial {
       width: 100%; // Two slides on medium screens

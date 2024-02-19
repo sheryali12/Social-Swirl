@@ -8,7 +8,7 @@ function Intern1() {
     <div className="intern1Container">          
 
       {products.map(item => (
-        <div className="intern" key={item.id}>
+        <div className="interns" key={item.id}>
 
           <img src={item.image} alt={item.title} />
 

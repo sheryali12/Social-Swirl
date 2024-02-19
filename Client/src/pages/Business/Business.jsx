@@ -1,12 +1,20 @@
 import React from 'react'
+import Ceo from './Ceo'
+import Intro from './Intro'
+
 
 function Business() {
   return (
-    <div>
 
+    <div className='business'>
+
+
+
+<Intro/>
 
 
     </div>
+
   )
 }
 
