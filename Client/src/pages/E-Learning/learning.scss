@@ -1,109 +1,89 @@
-.learning-page {
-    color: #fff;
-    height: auto;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-margin-top: 50px;
-margin-bottom: 70px;
-font-family: 'Poppins', sans-serif;
-    
-   #img{
-    width: 60%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-right: 100px;
-    img{
-        width: 500px;
-        height: auto;
-    }
-   }
-
-    .content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align:justify;
-    }
-    .content1{
-        margin-left: 20%;
-    }
-
-    .h1 {
-        font-size: 3.5rem;
-        margin-bottom: 10px;
-        display: flex;
-        color: black;
-        
-    
-    }
-
-    .para1 {
-        font-size: 1.2rem;
-        // border: 2px solid black;
-        color: black;
+.Learnings {
+    // border: 2px salmon solid;
+     width: 100%;
+     display: flex;
+     align-content: center;
+     justify-content: center;
+ 
+ .internRemote {
+     width: 80%;
+   //  border: 2px solid black;
+     height: 50%;
+     margin-bottom: 0;
+     margin-top: 0;
+ 
+     background-image: url('https://socialswirl.org/assets/Remote-084bb76a.png');
+     background-size: contain; 
+     background-position: center; 
+     background-repeat: no-repeat; 
+     height: 83vh; 
+     max-width: auto;
+ 
+     .btnLearning {
+         position: relative; 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100%; 
+ 
+ 
+         button {
+             border: 2px solid #003c6b;
+             background-color: #003c6b;
+             color: #fff;
+             width: 150px;
+             height: 50px;
+             font-weight: 500;
+             font-size: medium;
+             padding: 3px;
+             font-size: 16px;
+             font-family: poppins;
+             border-radius: 5px;
+             text-align: center;
+             align-items: center;
+             justify-content: center;
+             display: flex;
+ 
+             position: absolute; 
+             bottom: 0; 
+             
+ 
+             transition: all 0.3s ease; 
+ 
+             
+             &:hover {
+                 background-color: #fff;
+                 color: #003c6b;
+ 
+                 transform: scale(1.05); 
+             }
+             
+         }
+     }
+ 
+     
+ 
+ }
+     
+ }
+ 
+ @media (max-width: 950px) {
+     .Learnings {
         width: 100%;
-       
-        
-    }
-
-    .btns{
-        display: flex;
-        justify-content:left;
-        gap: 20px;
-    }
-    %btn1{
-        border: 2px solid #9C55F7;
-        background-color: #9C55F7;
-        color: white;
-        cursor: pointer;
-       width: 150px;
-       height: 50px;
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       font-size: smaller;
-       border-radius: 14px;
-       &:hover {
-        transform: scale(1.05); 
-        
-      }
-       
-    }
-    .btn1{
-        @extend %btn1;
-        &:hover {
-            background-color: #F4675C !important;
-                color: white !important;
-                border: 2px solid #F4675C !important;
-        }
-    }
-    .btn2{
-        @extend %btn1;
-        border-radius: 5px;
-                    cursor: pointer;
-                   width: 150px;
-                   height: 50px;
-                   justify-content: center;
-                   align-items: center;
-                   text-align: center;
-                   font-size: smaller;
-                   background-color: #C0C0C0;
-                    color: black;
-                    border-radius: 14px;
-                    border: #C0C0C0;
-                 
-                    &:hover {
-                        background-color: #F4675C !important;
-                            color: white !important;
-                            border: 2px solid #F4675C !important;
-                    }
-                    
-    }
-
-}
+     .internRemote {
+        width: 100% !important;
+         background-size: contain;
+         height: 300px;
+         margin-bottom: 100px;
+         .btnLearning {
+             button {
+                 width: auto;
+                 height: auto;
+                 position: relative;
+                 margin-top: 300px;
+               
+             }
+         }
+     }
+ }
+ }

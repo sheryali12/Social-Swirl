@@ -1,23 +1,22 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import 'swiper/swiper-bundle.css';
 
-import { Provider } from 'react-redux';
-import { PersistGate } from 'redux-persist/integration/react';
 
-import { store, persistor } from './app/store';
 
 import App from './App';
 
 ReactDOM.render(
 
-  <Provider store={store}>
+  <StrictMode>
 
-    <PersistGate loading={null} persistor={persistor}>
+
+  
       <App />
-    </PersistGate>
+  
     
-  </Provider>,
+
+  </StrictMode>,
 
   document.getElementById('root')
 );

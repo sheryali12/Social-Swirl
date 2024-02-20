@@ -1,30 +1,46 @@
-import React from 'react';
-import './learning.scss';
-import learningImg from '../../assets/learning.jpg'
+import React from 'react'
+import './learning.scss'
+import Cards from './Cards'
+import StudentsTestimonials from './StudentsTestimonials'
+import Testimonials from '../Home/Testimonials'
+import Employees from '../Home/Employees'
 
 function Learning() {
-    return (
-        <div className="learning-page">
-            <div className="content">
-              <div className='content1'>
-                <h1 className='h1'>Welcome To Social <br /> Swirl E-Learning</h1>
-                <p className='para1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dignissimos mollitia a qui voluptatibus ducimus, sunt doloribus perspiciatis deserunt br eum veniam libtrum, aliquid deserunt ut, incidunt, voluptate ratione iure eveniet qui. Officiis, beatae incidunt.</p>
+  return (
+<div>
 
+    <div className='Learnings'>
 
-                <div className="btns">
+{/* ------------------------------------ */}
+<div className="internRemote">
 
-                   <button className='btn1'>button1</button>
-<button className='btn2'>button2</button>
-                    </div>
-                </div>
-            </div>
+<div className="btnLearning">
 
-<div id='img'>
-    <img src={learningImg} alt="loading" />
+  <button >Work Remotely</button>
+
 </div>
 
-        </div>
-    );
+</div>
+{/* ------------------------------------ */}
+
+    </div>
+
+<br /> <br /> <br />
+    <Cards/>
+
+
+    <h3 style={{ textAlign:'center', fontSize:'3rem', fontFamily:'Comfortaa', fontWeight:'900px', color:'#212529'}}>Hear From Our Students</h3>
+<StudentsTestimonials/>
+<h3 style={{ textAlign:'center', fontSize:'3rem', fontFamily:'Comfortaa', fontWeight:'900px', color:'#212529'}}>Current Employees</h3>
+ <Employees/>
+
+
+<h3 style={{ textAlign:'center', fontSize:'3rem', fontFamily:'Comfortaa', fontWeight:'900px', color:'#212529'}}>What Companies Say About Us</h3>
+<Testimonials/>
+</div>
+
+
+  )
 }
 
 
